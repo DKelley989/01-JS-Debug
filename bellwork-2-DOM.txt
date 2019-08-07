@@ -1,6 +1,10 @@
 Please describe in detail, in your own words, what is event-driven programming. Is JavaScript event-driven? What is an event on a computer? What is an event handler? Use an outside source to provide additional information that is relevant to this particular subject matter.
 
+    Event driven programming is based off events and the results from those events, such as user input or actions like mouse clicks or keys pressed, or instructions from another program. JavaScript is event driven, as it waits and responds to events after the webpage has loaded. An event can be anything like user input, sensor outputs, or messages from other programs or threads. An event handler is something that responds to events, which can perform an action based on the event.
+
 Please describe in detail, in your own words, what is the Document Object Model (DOM). What is its purpose? What is its structure? What are some of the differences in the DOM between different browsers? Use an outside source to provide additional information that is relevant to this particular subject matter.
+
+    The Document Object Model defines the structure of an HTML document and all the elements that make up the page in the correct order.
 
 Please describe in detail, in your own words, what are the methods of the document object that enable you to retrieve elements from the DOM so that you may manipulate them. What is the best use for each method? What does it return? What are some of the things that may be done with an element that you have retrieved from the DOM? Use an outside source to provide additional information that is relevant to this particular subject matter.
 
