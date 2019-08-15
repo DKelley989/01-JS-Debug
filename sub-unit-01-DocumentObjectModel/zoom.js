@@ -2,8 +2,8 @@
 
  *    Photo zoom
  *    Variables and functions
- *    Author: 
- *    Date:   
+ *    Author: Dylan Kelley
+ *    Date:   8.15.19
 
  *    Filename: zoom.js
  */
