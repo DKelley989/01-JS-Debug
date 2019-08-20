@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <!--
       Exercise 01_06_01
 
       Snoot Flowers order form
-      Author: 
-      Date:   
+      Author: Dylan Kelley
+      Date:   8.15.19
 
       Filename: snoot.html
    -->
@@ -25,7 +26,7 @@
             Snoot Flowers
          </h1>
       </header>
-   
+
       <nav>
          <ul>
             <li><a href="#">Floral Arrangements</a></li>
@@ -35,7 +36,7 @@
          </ul>
       </nav>
    </div>
-      
+
    <article>
       <h2>Place an Order</h2>
       <div id="errorText"></div>
@@ -52,9 +53,10 @@
             <label for="love">I love you!</label>
             <input id="custom" name="CustomMessage" type="checkbox" />
             <label for="custom">Custom message:</label>
-            <textarea id="customText" name="CustomText" placeholder="Enter custom message here (max 250 characters)"></textarea>
+            <textarea id="customText" name="CustomText"
+               placeholder="Enter custom message here (max 250 characters)"></textarea>
             <div class="errorMessage"></div>
-          </fieldset>
+         </fieldset>
          <fieldset id="billingAddress" class="text">
             <legend>Billing Address</legend>
             <label for="billFName">First Name</label>
@@ -303,14 +305,15 @@
                   </select>
                </div>
                <label for="cvv">CVV</label>
-               <input id="cvv" name="CVVValue" type="number" required="required" /> 
+               <input id="cvv" name="CVVValue" type="number" required="required" />
                <div id="cvvErrorMessage"></div>
             </div>
             <div class="errorMessage"></div>
          </fieldset>
          <fieldset id="createAccount" class="text">
             <legend>Create Account?</legend>
-            <p>To be able to access your purchase history and make changes to your order, enter a name and password to create an account.</p>
+            <p>To be able to access your purchase history and make changes to your order, enter a name and password to
+               create an account.</p>
             <label for="username">Username</label>
             <input id="username" name="NewUsername" type="text" />
             <label for="pass1">Password</label>
@@ -325,5 +328,7 @@
       </form>
    </article>
    <footer>Snoot Flowers <span>&bull;</span> Davenport, Iowa</footer>
+   <script type="text/javascript" src="snoot.js"></script>
 </body>
+
 </html>
